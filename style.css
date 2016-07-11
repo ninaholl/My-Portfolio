@@ -16,6 +16,8 @@ body {
 	background-repeat:no-repeat;
 	letter-spacing: 2px;
 }
+/*remember that there's letter spacing
+throughout the whole code*/
 
 header {
 	text-transform: uppercase;
@@ -26,8 +28,10 @@ header {
 	padding-left:20px;
 	margin:0;
 	overflow:auto;
-
 }
+/*overflow:auto makes the white 
+background stay*/
+
 a.menu {
 	text-decoration: none;
 	font-size:20px;
@@ -48,6 +52,7 @@ ul {
 li {
 	display:inline;
 }
+/*this makes the menu horizontal*/
 
 #social {
 	display:inline;
@@ -82,35 +87,32 @@ li {
 	margin:0 auto;
 }
 #me {
-	border-width:5px;
+	border-width:2px;
 	border-style:solid;
 	border-color:white;
 	margin-top: 130px;
 	margin-left:100px;
 	float:left;
 }
-#office {
-	border-width:5px;
-	border-style:solid;
-	border-color:white;
-}
 .homephoto {
 	float:left;
 	margin:10px;
-	border-width:5px;
+	border-width:2px;
 	border-style:solid;
 	border-color:white;
 
 }
 .projdesc {
 	background-color: white;
+	opacity:0.9;
 	width:500px;
 	float:right;
-	margin-right:40px;
 	margin-left:50px;
 	margin-top:50px;
 	color:#A9A9A9;
-	padding:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:50px;
 }
 .project {
 	display: inline-block;
@@ -122,24 +124,35 @@ li {
 	padding:10px;
 	margin-bottom:30px;
 	margin-right:100px;
+	opacity:0.9;
 	
 }
 #about {
 	float:right;
 	width:600px;
 	box-sizing: border-box;
-	margin-top:90px;
+	margin-top:110px;
 	margin-right:40px;
 	margin-left:10px;
 
 }
+#aboutonabout {
+	color:#A9A9A9;
+}
+/*this is so that it shows it's
+ on the about page*/
 #contact {
 	background-color: white;
 	color:#A9A9A9;
-	font-size:25px;
-	width:37%;
+	font-size:20px;
+	width:31%;
 	padding:20px;
 	margin:0 auto;
 	margin-top:80px;
+	opacity:0.9;
 }
-
+#contactoncontact {
+	color:#A9A9A9
+}
+/*this is so that it shows it's
+ on the about page*/
