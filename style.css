@@ -6,14 +6,15 @@ a#backhome {
 	font-size:30px;
 	font-weight:bold;
 	float:left;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 	text-decoration:none;
 	}
 body {
 	margin:0;
-	font-family: arial;
+	font-family: Helvetica;
 	background-image: url(wood.jpeg);
 	background-repeat:no-repeat;
+	letter-spacing: 2px;
 }
 
 header {
@@ -41,7 +42,6 @@ ul {
 	list-style-type: none;
 	margin:0;
 	float:right;
-	letter-spacing: 3px;
 	padding-top: 10px;
 	padding-left: 0px;
 }
@@ -68,7 +68,9 @@ li {
 #container1 {
 	margin:0 auto;
 	padding-left:100px;
-	padding-top:40px;
+	padding-top:20px;
+	padding-right:20px;
+	padding-bottom:90px;
 }
 #container2 {
 	margin:0 auto;
@@ -80,33 +82,33 @@ li {
 	margin:0 auto;
 }
 #me {
-	border-width:10px;
+	border-width:5px;
 	border-style:solid;
 	border-color:white;
-	margin-top: 70px;
-	margin-left:70px;
+	margin-top: 130px;
+	margin-left:100px;
 	float:left;
 }
 #office {
-	border-width:10px;
+	border-width:5px;
 	border-style:solid;
 	border-color:white;
 }
 .homephoto {
 	float:left;
 	margin:10px;
-	border-width:10px;
+	border-width:5px;
 	border-style:solid;
 	border-color:white;
 
 }
 .projdesc {
 	background-color: white;
-	width:600px;
+	width:500px;
 	float:right;
 	margin-right:40px;
-	margin-left:10px;
-	margin-top:30px;
+	margin-left:50px;
+	margin-top:50px;
 	color:#A9A9A9;
 	padding:10px;
 }
@@ -118,16 +120,26 @@ li {
 	background-color:white;
 	color:#A9A9A9;
 	padding:10px;
+	margin-bottom:30px;
+	margin-right:100px;
 	
-
 }
 #about {
 	float:right;
 	width:600px;
 	box-sizing: border-box;
-	margin-top:55px;
+	margin-top:90px;
 	margin-right:40px;
 	margin-left:10px;
 
+}
+#contact {
+	background-color: white;
+	color:#A9A9A9;
+	font-size:25px;
+	width:37%;
+	padding:20px;
+	margin:0 auto;
+	margin-top:80px;
 }
 
